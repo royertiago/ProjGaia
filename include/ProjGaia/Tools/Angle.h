@@ -1,7 +1,7 @@
 #ifndef ANGLE_H
 #define ANGLE_H
 #include "Coord.h"
-#include "Math.h"
+#include <math.h>
 
 #define PI 3.141592653589793238460
 
