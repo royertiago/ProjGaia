@@ -1,0 +1,8 @@
+# Vim temporaries
+.*.swp
+
+# Object files
+*.o
+
+# Makefile dependency management
+*.dep.mk
