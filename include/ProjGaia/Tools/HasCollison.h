@@ -6,11 +6,9 @@ namespace pg{
 class HasCollison
 {
 	public:
-		/** Default constructor */
 
-		/** Default destructor */
-		virtual HitBox* getHitBox() = 0;
-		virtual ~HasCollison();
+		virtual ~HasCollison(){};
+		virtual HitBox* getHitBox() =0;
 	protected:
 	private:
 };
